@@ -1,4 +1,5 @@
 # aurelia-infinite-scroll
+<<<<<<< HEAD
 
 Aurelia infinite scroll plugin
 
@@ -63,3 +64,6 @@ And add `aurelia-infinite-scroll` in the `coreBundles.aurelia` section of your `
 ### Typescript
 
 Npm-based installations pick up the typings automatically. For Jspm-based installations, run `typings i github:behzad888/aurelia-infinite-scroll` or add `"aurelia-infinite-scroll": "github:behzad888/aurelia-infinite-scroll",` to your `typings.json` and run `typings i`.
+=======
+Aurelia infinite scroll plugin
+>>>>>>> 26639c4f583a5a2462e4591bcd7c9d79c7f444a2
