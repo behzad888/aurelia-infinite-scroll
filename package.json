@@ -14,13 +14,13 @@
         "type": "git",
         "url": "git+https://github.com/behzad888/aurelia-infinite-scroll-plugin.git"
     },
-    "author": "Behzad Abbasi (behzad888) <info@spoonx.nl>",
+    "author": "Behzad Abbasi (behzad888)",
     "contributors": [
         "Behzad Abbasi (behzad888)"
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/SpoonX/aurelia-infinite-scroll-plugin/issues"
+        "url": "https://github.com/behzad888/aurelia-infinite-scroll-plugin/issues"
     },
     "scripts": {
         "test": "gulp test",
