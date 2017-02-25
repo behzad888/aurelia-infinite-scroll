@@ -1,1 +1,1 @@
-export * from 'aurelia-infinite-scroll-plugin-plugin/aurelia-infinite-scroll-plugin-plugin';
+export * from 'aurelia-infinite-scroll-plugin/aurelia-infinite-scroll-plugin';
