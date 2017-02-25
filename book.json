@@ -7,11 +7,11 @@
     ],
     "pluginsConfig": {
         "edit-link": {
-            "base": "https://github.com/behzad888/aurelia-infinite-scroll/edit/master/doc",
+            "base": "https://github.com/behzad888/aurelia-infinite-scroll-plugin/edit/master/doc",
             "label": "Edit This Page"
         },
         "github": {
-            "url": "https://github.com/behzad888/aurelia-infinite-scroll"
+            "url": "https://github.com/behzad888/aurelia-infinite-scroll-plugin"
         }
     }
 }

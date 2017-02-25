@@ -1,5 +1,5 @@
 {
-    "name": "aurelia-infinite-scroll",
+    "name": "aurelia-infinite-scroll-plugin",
     "version": "0.1.0",
     "description": "Aurelia infinite scroll plugin",
     "keywords": [
@@ -7,8 +7,8 @@
         "infinite-scroll",
         "plugin"
     ],
-    "homepage": "https://github.com/behzad888/aurelia-infinite-scroll",
-    "main": "dist/commonjs/aurelia-infinite-scroll.js",
+    "homepage": "https://github.com/behzad888/aurelia-infinite-scroll-plugin",
+    "main": "dist/commonjs/aurelia-infinite-scroll-plugin.js",
     "moduleType": "node",
     "license": "MIT",
     "author": "Behzad Abbasi (behzad888)",
@@ -17,7 +17,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/behzad888/aurelia-infinite-scroll"
+        "url": "https://github.com/behzad888/aurelia-infinite-scroll-plugin"
     },
     "dependencies": {
         "aurelia-dependency-injection": "^1.0.0"

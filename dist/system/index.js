@@ -1,14 +1,14 @@
 'use strict';
 
-System.register(['./aurelia-infinite-scroll'], function (_export, _context) {
+System.register(['./aurelia-infinite-scroll-plugin-plugin'], function (_export, _context) {
   "use strict";
 
   return {
-    setters: [function (_aureliaInfiniteScroll) {
+    setters: [function (_aureliaInfiniteScrollPluginPlugin) {
       var _exportObj = {};
 
-      for (var _key in _aureliaInfiniteScroll) {
-        if (_key !== "default" && _key !== "__esModule") _exportObj[_key] = _aureliaInfiniteScroll[_key];
+      for (var _key in _aureliaInfiniteScrollPluginPlugin) {
+        if (_key !== "default" && _key !== "__esModule") _exportObj[_key] = _aureliaInfiniteScrollPluginPlugin[_key];
       }
 
       _export(_exportObj);
