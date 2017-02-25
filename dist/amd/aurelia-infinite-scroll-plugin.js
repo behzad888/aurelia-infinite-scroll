@@ -133,7 +133,9 @@ define(['exports', 'aurelia-framework'], function (exports, _aureliaFramework) {
             return true;
         }
     })), _class2)) || _class);
-    function configure(aurelia) {
-        aurelia.globalResources('./infinite-scroll');
+    function configure(aurelia, configCallback) {
+        if (typeof configCallback === 'function') {
+            configCallback();
+        } else {}
     }
 });

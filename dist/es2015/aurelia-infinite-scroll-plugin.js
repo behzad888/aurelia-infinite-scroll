@@ -119,6 +119,10 @@ export let InfiniteScrollCustomAttribute = (_dec = inject(Element), _dec(_class 
         return true;
     }
 })), _class2)) || _class);
-export function configure(aurelia) {
-    aurelia.globalResources('./infinite-scroll');
+
+
+export function configure(aurelia, configCallback) {
+    if (typeof configCallback === 'function') {
+        configCallback();
+    } else {}
 }

@@ -50,8 +50,10 @@ System.register(['aurelia-framework'], function (_export, _context) {
         throw new Error('Decorating class property failed. Please ensure that transform-class-properties is enabled.');
     }
 
-    function configure(aurelia) {
-        aurelia.globalResources('./infinite-scroll');
+    function configure(aurelia, configCallback) {
+        if (typeof configCallback === 'function') {
+            configCallback();
+        } else {}
     }
 
     _export('configure', configure);
