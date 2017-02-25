@@ -1,0 +1,66 @@
+{
+    "name": "aurelia-infinite-scroll",
+    "version": "0.1.0",
+    "description": "Aurelia infinite scroll plugin",
+    "keywords": [
+        "aurelia",
+        "infinite-scroll",
+        "plugin"
+    ],
+    "homepage": "https://github.com/behzad888/aurelia-infinite-scroll#readme",
+    "main": "dist/commonjs/aurelia-infinite-scroll.js",
+    "typings": "dist/aurelia-infinite-scroll.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/behzad888/aurelia-infinite-scroll.git"
+    },
+    "author": "Behzad Abbasi (behzad888) <info@spoonx.nl>",
+    "contributors": [
+        "Behzad Abbasi (behzad888)"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/SpoonX/aurelia-infinite-scroll/issues"
+    },
+    "scripts": {
+        "test": "gulp test",
+        "build": "gulp build",
+        "preversion": "npm test",
+        "version": "npm run build && gulp prepare-package && git add -A dist doc/CHANGELOG.md bower.json",
+        "postpublish": "git push upstream master && git push upstream --tags"
+    },
+    "jspm": {
+        "registry": "npm",
+        "jspmPackage": true,
+        "main": "aurelia-infinite-scroll",
+        "format": "amd",
+        "directories": {
+            "dist": "dist/amd"
+        },
+        "dependencies": {
+            "aurelia-dependency-injection": "^1.0.0"
+        },
+        "peerDependencies": {
+            "aurelia-dependency-injection": "^1.0.0"
+        },
+        "devDependencies": {
+            "aurelia-dependency-injection": "^1.0.0",
+            "aurelia-pal-browser": "^1.0.0",
+            "aurelia-polyfills": "^1.0.0",
+            "fetch": "github:github/fetch@^1.0.0"
+        }
+    },
+    "dependencies": {
+        "aurelia-dependency-injection": "^1.0.0"
+    },
+    "devDependencies": {
+        "spoonx-tools": "^1.0.0-0"
+    },
+    "aurelia": {
+        "build": {
+            "resources": [
+                "aurelia-infinite-scroll/infinite-scroll"
+            ]
+        }
+    }
+}

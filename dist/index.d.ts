@@ -1,0 +1,1 @@
+export * from 'aurelia-infinite-scroll/aurelia-infinite-scroll';
